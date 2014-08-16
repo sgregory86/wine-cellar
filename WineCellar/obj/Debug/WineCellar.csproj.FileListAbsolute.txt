@@ -85,7 +85,6 @@ C:\web\Examples\WineCellar\WineCellar\obj\Debug\WineCellar.dll
 C:\web\Examples\WineCellar\WineCellar\obj\Debug\WineCellar.pdb
 C:\web\Examples\WineCellar\WineCellar\obj\Debug\WineCellar.Migrations.InitialCreate.resources
 C:\web\Examples\WineCellar\WineCellar\obj\Debug\WineCellar.csproj.GenerateResource.Cache
-C:\web\Examples\WineCellar\WineCellar\obj\Debug\WineCellar.Migrations.InitialCreate1.resources
 C:\web\Examples\WineCellar\WineCellar\bin\Microsoft.Practices.Unity.Configuration.dll
 C:\web\Examples\WineCellar\WineCellar\bin\Microsoft.Practices.Unity.dll
 C:\web\Examples\WineCellar\WineCellar\bin\Microsoft.Practices.Unity.xml

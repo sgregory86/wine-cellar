@@ -198,7 +198,6 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\WineController.cs" />
     <Compile Include="DAL\IWineContext.cs" />
     <Compile Include="DAL\WineContext.cs" />
@@ -209,10 +208,6 @@
     <Compile Include="Migrations\201309302259340_InitialCreate.cs" />
     <Compile Include="Migrations\201309302259340_InitialCreate.Designer.cs">
       <DependentUpon>201309302259340_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201309302314398_InitialCreate1.cs" />
-    <Compile Include="Migrations\201309302314398_InitialCreate1.Designer.cs">
-      <DependentUpon>201309302314398_InitialCreate1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
@@ -337,9 +332,6 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -361,9 +353,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201309302259340_InitialCreate.resx">
       <DependentUpon>201309302259340_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201309302314398_InitialCreate1.resx">
-      <DependentUpon>201309302314398_InitialCreate1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
