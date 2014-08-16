@@ -1,0 +1,56 @@
+﻿@model WineCellar.Models.Wine
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit Wine</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <div>
+            @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Grapes</label>
+        <div>
+            @Html.TextBoxFor(model => model.Grapes, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Country</label>
+        <div>
+            @Html.TextBoxFor(model => model.Country, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Region</label>
+        <div>
+            @Html.TextBoxFor(model => model.Region, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Year</label>
+        <div>
+            @Html.TextBoxFor(model => model.Year, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <input type="submit" class="btn btn-primary btn-lg btn-custom" value="Save" />
+    <span class="cancel">@Html.ActionLink("Cancel", "Index")</span>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

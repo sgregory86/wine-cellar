@@ -1,0 +1,25 @@
+﻿@model WineCellar.Models.Wine
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Wine Details</h2>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        @Html.DisplayFor(model => model.Name)
+    </li>
+    <li class="list-group-item">
+        @Html.DisplayFor(model => model.Grapes)
+    </li>
+    <li class="list-group-item">
+        @Html.DisplayFor(model => model.Country)
+    </li>
+    <li class="list-group-item">
+        @Html.DisplayFor(model => model.Region)
+    </li>
+    <li class="list-group-item">
+        @Html.DisplayFor(model => model.Year)
+    </li>
+</ul>

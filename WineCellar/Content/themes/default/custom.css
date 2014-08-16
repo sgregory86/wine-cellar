@@ -1,0 +1,66 @@
+﻿/* Tweak navbar brand link to be super sleek
+-------------------------------------------------- */
+.navbar-header .navbar-brand {
+  padding-right: 20px;
+  padding-left: 0;
+  margin-left: 0px;
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000 !important;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+
+.navbar-nav span {
+    color: #eee;
+    margin: 15px -8px 0 0;
+    float: left;
+}
+
+h2 {
+    margin: 100px 0 25px 0 !important;
+}
+
+.footer {
+    margin-top: 150px;   
+}
+
+.glyphicon-edit,
+.glyphicon-list,
+.glyphicon-minus-sign {
+    color: #555;
+}
+
+.cancel {
+    margin-left: 6px;
+}
+
+.cancel a {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.cancel a:hover,
+.cancel a:focus,
+.cancel a:active,
+.cancel a.active
+{  
+    color: #333333;
+    background-color: #ebebeb;
+    border-color: #adadad;
+    text-decoration: none;
+}
+
+.btn-custom {
+    margin-bottom: 6px !important;
+}

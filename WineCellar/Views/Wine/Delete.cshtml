@@ -1,0 +1,33 @@
+﻿@model WineCellar.Models.Wine
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete Wine</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        @Html.DisplayFor(model => model.Name)
+    </li>
+    <li class="list-group-item">
+        @Html.DisplayFor(model => model.Grapes)
+    </li>
+    <li class="list-group-item">
+        @Html.DisplayFor(model => model.Country)
+    </li>
+    <li class="list-group-item">
+        @Html.DisplayFor(model => model.Region)
+    </li>
+    <li class="list-group-item">
+        @Html.DisplayFor(model => model.Year)
+    </li>
+</ul>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <input type="submit" value="Delete" class="btn btn-primary btn-lg btn-custom" />
+    <span class="cancel">@Html.ActionLink("Cancel", "Index")</span>
+}
